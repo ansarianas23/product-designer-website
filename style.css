@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#hero{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#nav span{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#heading{
+    margin-top: 100px;
+}
+
+#heading h1{
+    line-height: 1;
+    font-size: 9vw;
+    font-family: "General Sans Medium";
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-left: 60px;
+}
+
+#heading #secondH1{
+    margin-left: 240px;
+}
+
+.blockText{
+    width: fit-content;
+}
+
+.blockText h5{
+    text-align: right;
+    font-size: 18px;
+}
+
+#smallHeading{
+    margin-top: 170px;
+    padding-right: 30px;
+}
+
+#smallHeading h5{
+    text-align: right;
+    margin: 10px;
+    font-size: 0.8vw;
+    text-transform: uppercase;
+}
+
+#heroFooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 1vw 3vw;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#heroFooter a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+#iconSet{
+    display: flex;
+}
+
+#iconSet .circle {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #888;
+    color: black;
+    margin: 0 3px;
+    font-weight: bold;
+}
+
+/* secondPage starts*/
+
+#secondPage{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 200px;
+    color: white;
+    overflow: hidden;
+    padding-right: 10vw;
+    padding-left: 2vw;
+}
+
+#secondPage .elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3vh 0; 
+    border-top: 1px solid #888;
+    position: relative;
+}
+
+#secondPage .elem h1{
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: .6;
+}
+
+#secondPage .elem h5{
+    font-size: 15px;
+}
+
+.elemLast{
+    border-bottom: 1px solid #888;
+}
+
+.elem img{
+    display: none;
+    height: 140%;
+    position: absolute;
+    z-index: 10;
+
+}
+
+/* about section starts */
+
+#about{
+    width: 100%;
+    padding: 10vw 10vw 10vw 40vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    /* background-color: antiquewhite; */
+}
+
+#about img{
+    width: 200px;
+}
+
+#textabout{
+    width: 25rem;
+}
+
+#aboutHead{
+    color: white;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+#textabout p{
+    color: white;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+    
+#textabout a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;    
+    border-radius: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+#textabout a:hover{
+    background-color: white;
+    color: black;
+    transition: all ease-in-out .5s ;
+}
+
+/* subscribe section starts here */
+#subscribe{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+}
+
+#subscribe h5{
+    text-transform: uppercase;
+    opacity: 0.6;    
+}
+
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* footer starts here */
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+#footerLeft{
+    display: flex;
+    gap: 20px;
+}
+
+#footerRight{
+    display: flex;
+    gap: 30px;
+}
+
+#footerRight a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
