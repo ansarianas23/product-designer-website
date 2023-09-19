@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="loco.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- this is for mouse pointer -->
+    <div id="miniCircle">
+    </div>
 
     <div id="main">
         <!-- 1st page starts -->
@@ -19,16 +24,27 @@
             </div>
 
             <div id="heading">
-                <h1>Product</h1>
+                <div class="bounding">
+                    <h1 class="boundingElem">Product</h1>
+                </div>
+
                 <div class="blockText">
-                    <h1 id="secondH1">Designer</h1>
-                    <h5>based on toronto</span>
+                    <div class="bounding">
+                        <h1 class="boundingElem" id="secondH1">Designer</h1>
+                    </div>
+                    <div class="bounding">
+                        <h5 class="boundingElem">based on toronto</span>
+                    </div>
                 </div>
             </div>
 
             <div id="smallHeading">
-                <h5>Available for freelance</h5>
-                <h5>Work from may23'</h5>
+                <div class="bounding">
+                    <h5 class="boundingElem">Available for freelance</h5>
+                </div>
+                <div class="bounding">
+                    <h5 class="boundingElem">Work from may23'</h5>
+                </div>
             </div>
 
             <div id="heroFooter">
@@ -54,8 +70,8 @@
                 <h5>2022</h5>
             </div>
             <div class="elem elemLast">
+                <img src="/img/hudu.png" alt="">
                 <h1>hudu</h5>
-                    <img src="/img/hudu.png" alt="">
                 <h5>2021</h5>
             </div>
         </div>
@@ -91,6 +107,8 @@
         </div>
     </div>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
